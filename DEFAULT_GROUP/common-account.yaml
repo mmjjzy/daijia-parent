@@ -1,0 +1,31 @@
+wx:
+  miniapp:
+    appId: wxcc651fcbab275e33  # 小程序微信公众平台appId
+    secret: 5f353399a2eae7ff6ceda383e924c5f6  # 小程序微信公众平台api秘钥
+  v3pay:
+    #小程序微信公众平台appId
+    appid: wx74862e0dfcf69954
+    #商户号
+    merchantId: 1558950191
+    #商户API私钥路径
+    privateKeyPath: C:\Users\Kuang\Desktop\Notes\\apiclient_key.pem
+    #商户证书序列号
+    merchantSerialNumber: 34345964330B66427E0D3D28826C4993C77E631F
+    #商户APIV3密钥
+    apiV3key: UDuLFDcmy5Eb6o0nTNZdu6ek4DDh4K8B
+    #异步回调地址
+    notifyUrl: http://192.168.72.160:8600/payment/wxPay/notify
+tencent:
+  cloud:
+    secretId: AKIDU1dFtaPXbYbdrLueiqGd46iw8QkwX7gS
+    secretKey: rZ8Wjw4hTBxpst6Kar8JUfIxcNhUakVH
+    region: ap-shanghai
+    bucketPrivate: atguigu-1328250597
+    persionGroupId: 1
+  map:
+    key: BZEBZ-KHM3N-ANTFA-SFIMA-VS5PT-TGB73
+minio:
+  endpointUrl: http://192.168.72.160:9000
+  accessKey: admin
+  secreKey: admin123456
+  bucketName: daijia
